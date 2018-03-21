@@ -1,17 +1,49 @@
 body {
      font-family: "Didact Gothic", sans-serif;
 }
+<<<<<<< HEAD
  .udacity {
      width: 20%;
 }
  .jumbotron {
      background-color: #ffb366;
+||||||| merged common ancestors
+ .jumbotron {
+     background-color: #ffb366;
+=======
+.udacity {
+     width: 20%;
+
+>>>>>>> 1762e5164137ae0ae46716866e4cebbfc7bfc93e
 }
+<<<<<<< HEAD
+||||||| merged common ancestors
+ .udacity {
+     width:20%;
+     max-height:100px;
+}
+=======
+.jumbotron {  background-color: #ffb366;
+}
+
+>>>>>>> 1762e5164137ae0ae46716866e4cebbfc7bfc93e
  .about {
+<<<<<<< HEAD
      text-align: center;
      justify-content: center;
+||||||| merged common ancestors
+     text-align:center;
+     margin-bottom:auto;
+     margin-top:auto;
+=======
+     text-align: center;
+     justify-content: center;
+	
+	 
+>>>>>>> 1762e5164137ae0ae46716866e4cebbfc7bfc93e
 }
  .shrooms {
+<<<<<<< HEAD
      max-height: 100%;
      max-width: 100%;
      justify-content: center;
@@ -23,8 +55,44 @@ body {
      padding: 0;
      display: block;
      justify-content: center;
+||||||| merged common ancestors
+     max-height:100%;
+     max-width:100%;
+}
+ .card {
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+}
+ .pixel, .animal {
+     max-width:100%;
+     max-height:100%;
+     padding:10px;
+     width:300px;
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+=======
+     max-height: 100%;
+     max-width: 100%;
+	 justify-content: center;
+	
+		
+}
+
+ .pixel, 
+ .animal {
+     max-width: 100%;
+     max-height: 100%;
+     padding: 0;
+	 display: block;
+     justify-content: center;
+	 
+     
+>>>>>>> 1762e5164137ae0ae46716866e4cebbfc7bfc93e
 }
  .tubismo {
+<<<<<<< HEAD
      max-width: 70%;
      max-height: 70%;
      display: block;
@@ -34,6 +102,32 @@ body {
  .no2, 
  .no3 {
      justify-content: center;
+||||||| merged common ancestors
+     max-width:100%;
+     max-height:100%;
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+}
+ .no1, .no2, .no3 {
+     margin:20px;
+=======
+     max-width: 70%;
+     max-height: 70%;
+     display: block;
+	 margin: 0 auto;
+	 
+     
+}
+
+
+ .no1, 
+ .no2, 
+ .no3 {
+   
+	 justify-content: center;
+
+>>>>>>> 1762e5164137ae0ae46716866e4cebbfc7bfc93e
 }
  .footer {
      text-align: center;
@@ -56,8 +150,16 @@ body {
  .fa:hover {
      opacity: 0.7;
 }
+<<<<<<< HEAD
  @media screen and (max-width:768px) {
+||||||| merged common ancestors
+ @media screen and (max-width:600px) {
+=======
+
+ @media screen and (max-width:768px) {
+>>>>>>> 1762e5164137ae0ae46716866e4cebbfc7bfc93e
      .content {
+<<<<<<< HEAD
          flex-direction: column;
     }
      .no1, 
@@ -83,3 +185,79 @@ body {
          margin: 10px auto;
     }
 }
+||||||| merged common ancestors
+         flex-direction:column;
+         width:100%;
+    }
+     .no1, .no2 {
+         max-width:100%;
+    }
+     .no3 {
+         max-width:70%;
+         margin-left:auto;
+         margin-right:auto;
+    }
+}
+ @media screen and (min-width:600px) and (max-width:1200px) {
+     .content {
+         display:flex;
+         flex-wrap:wrap;
+    }
+     .pixel, .animal {
+         min-width:400px;
+    }
+     .no1{
+        flex-grow:1;
+        ;
+    }
+     .no3 {
+         flex-grow:1;
+    }
+     .no2 {
+        flex-shrink:0;
+         order:3;
+    }
+}
+ @media screen and (min-width:1200px) {
+     .card {
+         max-width:50%;
+         display:inline;
+    }
+     .content {
+         display:flex;
+         flex-wrap:wrap;
+    }
+     .no1 {
+         width:40%;
+    }
+     .no2{
+         width:60%;
+         order:1;
+    }
+     .no3 {
+        width:20%;
+    }
+}
+ 
+=======
+		 flex-direction: column;
+	   }
+	  .no1,
+	  .no2,
+	  .no3 { flex:0 0 auto;}
+ }
+  @media screen and (min-width:769px) {
+	 
+	 .no1 { order: 1;
+		}
+	 .no2 { order: 3;}
+	 .no3 { order: 2;
+	 }
+ }
+ @media screen and (min-width:992px) {
+	 .content { width: 990px;
+	 margin: 10px auto;
+	 }
+
+ 
+>>>>>>> 1762e5164137ae0ae46716866e4cebbfc7bfc93e
