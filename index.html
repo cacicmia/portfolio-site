@@ -1,7 +1,8 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
    <head>
       <title>Mia Ćaćić</title>
+	  <meta name="description" content="A professional tuba player and a web developer.">
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,49 +13,56 @@
    </head>
    <body>
       <header class="container">
-         <div class="jumbotron">
-            <div class="row">
+               <div class="row jumbotron">
                <img class="udacity col" src="img/udacity.svg" alt="Udacity">
                <div class="col">
                   <h1>Mia Ćaćić</h1>
                   <p>front-end web developer and a musician</p>
                </div>
             </div>
-         </div>
+        
       </header>
-      <main class="content container">
-         <section class="no1 col">
-            <figure class="about">
-               <img src="img/shrooms.JR.png" srcset="img/shrooms.png 900w"class="shrooms rounded" alt="mushrooms"> 
-               <p>Welcome to my portfolio!<br> I'm a classical musician with a master's degree in instrumental performance on tuba.<br> I'm from Požega, Croatia and currently enrolled in Udacity's Front-End Web Developer Nanodegree program. </p>
+      <main class="container">
+	  <div class="row content">
+         <section class="no1 col col-md-6 mx-auto my-1" >
+            <figure class="about shrooms ">
+               <img class="shrooms img-responsive" srcset="img/shrooms.500.png 500w,
+             img/shrooms.800.png 800w"
+     sizes="(max-width: 500px) 450px,
+             800px"
+     src="img/shrooms.800.png" alt="mushrooms">
+	           <p >Welcome to my portfolio!<br> I'm a classical musician with a master's degree in instrumental performance on tuba.<br> I'm from Požega, Croatia and currently enrolled in Udacity's Front-End Web Developer Nanodegree program. </p>
             </figure>
          </section>
-         <section class="no2 myProjects col">
+         <section class="no2 col col-md-12 mx-auto my-1">
             <h2><strong>My projects</strong></h2>
             <div class="card">
                <a href="https://codepen.io/sirnaa/full/RjgZaB/" target="blank">
-               <img class="animal img-thumbnail rounded"src="img/animal.png" alt="animal card">
+               <img class="animal img-thumbnail rounded img-fluid mx-auto"src="img/animal.png" alt="animal card">
                </a>
             </div>
             <div class="card">
                <a href="https://codepen.io/sirnaa/full/ppWvGd/" target="blank">
-               <img class="pixel img-thumbnail rounded" src="img/pixel.png" alt="pixel art maker">
+               <img class="pixel img-thumbnail rounded img-fluid mx-auto" src="img/pixel.png" alt="pixel art maker">
                </a>
             </div>
          </section>
-         <section  class="no3 col">
+         <section  class="no3 col col-md-6 mx-auto my-1">
             <a href="https://www.facebook.com/brass.hr/" target="blank">
                <img class="tubismo img-thumbnail rounded" src="img/tubismo.svg" alt="tubismo brass quintet">
-               <figcaption>Check out my band!</figcaption>
+               <figcaption class="figure-caption">Check out my band!</figcaption>
             </a>
          </section>
+		 </div>
       </main>
       <footer class="jumbotron footer">
          <a class="fa fa-facebook" href="https://www.facebook.com/sirkoo" target="blank" >
          </a>
          <a class="fa fa-linkedin" href="https://www.linkedin.com/in/mia-%C4%87a%C4%87i%C4%87-0868a6136/" target="blank">
          </a>
-         <p>cacic.miaa@gmail.com</p>
-      </footer>
+         <p>cacic.miaa@gmail.com
+		 </p>
+		 <a href="mailto:cacic.miaa@gmail.com">email me</a>
+     </footer>
    </body>
 </html>
